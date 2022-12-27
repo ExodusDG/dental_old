@@ -1,0 +1,839 @@
+/* FONTS */
+
+
+@font-face {
+    font-family: 'ClassicalGaramondBT';
+    src: url('fonts/ClassicalGaramondBT-Roman.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'ScalaSansOT';
+    src: url('fonts/ScalaSansOT.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'LandRover';
+    src: url('fonts/LandRoverWeb-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirNextW01-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* font-family: 'classgarmnd-bt-roman', sans-serif; */
+
+:root {
+    --dark: #1a1919;
+    --lightDark: #242222;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU */
+
+.navbar {
+    font-family: 'ClassicalGaramondBT';
+}
+
+nav {
+    padding: 0 0px;
+    align-items: center;
+    background: var(--dark);
+    width: 100%;
+    height: 70px;
+}
+
+.logotype {
+    max-width: 171px;
+    height: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 96%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.st0 {
+    fill: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.topMenu {
+    background: var(--lightDark);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 25px;
+}
+
+.topMenuItem {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.topMenuItem::before {
+    background-color: rgba(216, 216, 215, .3);
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 4px;
+}
+
+.topMenu ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+.topMenu .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topMenuItem a {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: .3px;
+    line-height: 16px;
+    text-decoration: none;
+    font-family: 'ScalaSansOT';
+}
+
+.topMenuItem:first-child::before {
+    display: none;
+}
+
+.topMenuItem a:hover {
+    text-decoration: underline;
+}
+
+.menuItems a {
+    font-size: 16px;
+    color: #aeaeae;
+    transition: color .3s cubic-bezier(.32, .24, .15, 1);
+    letter-spacing: .3px;
+}
+
+.menuItems {
+    display: flex;
+    margin-left: 50px;
+}
+
+.menuItem {
+    margin-left: 17px;
+    margin-right: 22px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.menuItem::after {
+    content: '';
+    position: absolute;
+    transition: width .3s cubic-bezier(.32, .24, .15, 1), background .3s cubic-bezier(.32, .24, .15, 1);
+    width: 0%;
+    height: 2px;
+    background: white;
+    bottom: 0;
+    left: 0;
+}
+
+.menuItem a:hover {
+    color: white;
+}
+
+.menuItem:hover::after {
+    width: 100%;
+}
+
+.menuLeft {
+    display: flex;
+    align-items: center;
+}
+
+.menuRight {
+    display: flex;
+    align-items: center;
+}
+
+.menuRight a {
+    margin-left: 20px;
+}
+
+.menuRight svg {
+    width: 22px;
+
+}
+
+.menuRight a {
+    margin-left: 33px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: var(--dark);
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+.footerLeftMenu {
+    display: grid;
+}
+
+.footerLeftMenu p {
+    color: #fff;
+    border-color: #999;
+    pointer-events: none;
+    font-size: 15px;
+    letter-spacing: .75px;
+    line-height: 18px;
+    color: #fff;
+    font-family: 'ClassicalGaramondBT';
+    text-transform: none;
+    border: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.footerLeftMenu a {
+    font-size: 14px;
+    letter-spacing: .7px;
+    line-height: 15px;
+    color: #a4a4a4;
+    font-family: 'ClassicalGaramondBT';
+    margin-bottom: 15px;
+}
+
+.footerLeftMenus {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footerLeftMenu {
+    width: 195px;
+}
+
+.footerLeftMenu a:hover {
+    text-decoration: underline;
+}
+
+.footerLeftMenu div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.footerBottomLeft .footerLeftMenu {
+    width: 100%;
+    max-width: 340px;
+}
+
+.footerBottomLeft a {
+    pointer-events: none;
+}
+
+.footerBottomLeft p {
+    margin-bottom: 30px;
+}
+
+.footerBottomBody {
+    margin-top: 40px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footerBottomRight {
+    display: flex;
+    align-items: baseline;
+}
+
+.footerBottomRight img:first-child {
+    margin-right: 40px;
+    width: 45px;
+}
+
+
+.footerBottomRight img:last-child {
+    width: 45px;
+}
+
+.footerLinks svg {
+    width: 18px;
+    height: 18px;
+}
+
+.footerLinks {
+    display: flex !important;
+    margin-top: 30px;
+}
+
+.footerLinks a {
+    margin-right: 10px;
+}
+
+.footerLinks a {
+    pointer-events: all;
+}
+
+.footerPayment {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerPaymentMethods {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 100%;
+    text-align: center;
+}
+
+.footerPaymentMethods img {
+    width: 600px;
+}
+
+.footerPaymentBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerPaymentBottom a {
+    color: var(--dark);
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    color: #767676;
+    position: relative;
+    font-family: 'ClassicalGaramondBT';
+}
+
+.footerPaymentBottom a::after {
+    content: '|';
+    position: absolute;
+    right: -11px;
+    top: -2px;
+}
+
+.footerPaymentBottom ul {
+    display: flex;
+    align-items: center;
+}
+
+.footerPaymentBottom>p {
+    margin-right: 42px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    color: #767676;
+}
+
+.footerPaymentBottom li {
+    margin-right: 15px;
+}
+
+.footerPaymentBottom a:last-child::after {
+    display: none;
+}
+
+
+/* HEADER */
+
+.header {
+    background: white;
+    width: 100%;
+}
+
+.headerLogo {
+    width: 170px;
+}
+
+.headerTitle_1 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.headerTitle_2 {
+    font-size: 53px;
+    color: white;
+    font-weight: 400;
+}
+
+.headerButton {
+    background: #54616b;
+    padding: 12px 15px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'ScalaSansOT';
+}
+
+.headerButton:hover {
+    background: #455058;
+}
+
+.headerPhone {
+    background: black;
+    padding: 12px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.headerPhone:hover {
+    background: #1a1919;
+    border: 1px solid white;
+}
+
+.invHeaderImage {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.invHeaderContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invHeaderInfo {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #242222;
+    font-family: 'LandRover';
+}
+
+
+.invHeaderInfo p {
+    max-width: 75%;
+    color: #242222;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: none;
+    margin-top: 10px;
+    font-family: 'Avenir';
+}
+
+.invHeaderPriceBlock {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+.invHeaderPriceBlock>div {
+    margin-right: 40px;
+    min-width: 100px;
+}
+
+.invHeaderPriceBlock>div>p:first-child {
+    color: #455058;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.invHeaderPriceBlock>div>p:last-child {
+    color: #455058;
+    font-size: 34px;
+    opacity: 0.8;
+    font-weight: 700;
+    font-family: 'LandRover';
+}
+
+.invHeaderButton button {
+    padding: 20px 25px;
+    background: #242222;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'ScalaSansOT';
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    margin-left: 0px;
+}
+
+.invHeaderButton button:hover {
+    background: #383737;
+}
+
+.invHeaderButton svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.infoBlock {
+    display: flex;
+    flex: 1/4;
+
+}
+
+.infoBlock a {
+    background: #f8f9f9;
+    padding: 50px;
+    color: #242222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-right: 1px solid #45505821;
+}
+
+.infoBlock a>svg {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.infoBlockTitle {
+    font-family: 'LandRover';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.infoBlockDesc {
+    font-family: 'Avenir';
+    font-weight: 300;
+    width: 90%;
+    line-height: 1.4;
+}
+
+.infoBlockTitle svg {
+    margin-right: 10px;
+}
+
+.invInfoContent {
+    display: flex;
+    align-items: center;
+}
+
+.invInfoContent>img {
+    width: 50%;
+}
+
+.invInfoContent>div {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.invInfoDetails h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #242222;
+    font-family: 'LandRover';
+}
+
+.invInfoList {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.invInfoList > div > div {
+    border: 2px solid #242222;
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #242222;
+    font-weight: 700;
+    font-family: 'ScalaSansOT';
+}
+
+.invInfoList > div {
+    display: flex;
+    align-items: center;
+    font-family: 'ScalaSansOT';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.invInfoList {
+    max-width: 65%;
+}
+
+.invInfoDetails .invHeaderButton {
+    top: 30px;
+    position: relative;
+}
+
+.infoListItem {
+    display: block !important;
+}
+
+.invInfoListItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    margin-top: 50px;
+    font-family: 'ScalaSansOT';
+}
+
+.invInfoListItems img {
+    width: 100%;
+}
+
+.infoListItemTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'LandRover';
+    font-size: 20px;
+}
+
+.infoListItemDesc {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Avenir';
+}
+
+.infoListButton button {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border: none;
+    background: #f8f9f9;
+    font-family: 'ScalaSansOT';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoListButton svg {
+    margin-right: 10px;
+}
+
+.portfolio {
+    background: #f8f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #242222;
+    font-family: 'LandRover';
+}
+
+.portfolio > .container > p {
+    font-family: 'Avenir';
+    max-width: 625px;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: #455058;
+}
+
+.portoflioItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.portoflioItems img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.contacts h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #242222;
+    font-family: 'LandRover';
+}
+
+.contacts > .container > p {
+    font-family: 'Avenir';
+    max-width: 625px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #455058;
+}
+
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contactsEmail {
+    background: #f8f9f9;
+    padding: 50px;
+    width: 40%;
+}
+
+.contactsEmail p {
+    font-family: 'LandRover';
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.contactsEmail input {
+    width: 100%;
+    border: 1px solid #aeaeae;
+    padding: 15px 15px;
+    outline: none;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: 'LandRover';
+}
+
+.contactsEmail button {
+    width: 100%;
+    padding: 15px 15px;
+    background: #242222;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'LandRover';
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.contactsEmail button:hover {
+    opacity: 0.8;
+}
+
+.contactsInfo {
+    background: #f8f9f9;
+    padding: 50px;
+    width: 55%;
+}
+
+.contactsInfo > p {
+    font-family: 'Avenir';
+    color: #383737;
+    width: 80%;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.contactItemIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #383737;
+}
+
+.contactItem {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+.contactItemIcon {
+    margin-right: 20px;
+}
+
+.contactItemIconTitle {
+    font-family: 'LandRover';
+    font-weight: 700;
+    color: #242222;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contactItemIconText {
+    font-family: 'Avenir';
+    font-size: 14px;
+}
+
+.contactItemIcon {
+    text-align: center;
+}
+
+.contactItemIcon svg {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
