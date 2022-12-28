@@ -26266,7 +26266,7 @@ body:not(.personalised-gifting-page) .pdp-main-quickview .product-details-contai
 .footer-middle-elements {
     background-color: #1a1919;
     padding: 0 0 41px;
-    margin-top: -1px;
+    margin-top: 0px;
     transition: .6s ease
 }
 
@@ -46505,7 +46505,7 @@ screen and (-ms-high-contrast:none) {
 
     .footer-middle-elements {
         padding: 0 40px 55px;
-        margin-top: -29px
+        margin-top: 0
     }
 
     .footer-middle-elements.slide {
@@ -64930,4 +64930,8 @@ screen and (-ms-high-contrast:none) {
 
 .stay-informed .newsletter-wrapper .emailform {
     width: 60%;
+}
+
+#dwfrm_newsletter_email-error {
+    display: none !important;
 }
