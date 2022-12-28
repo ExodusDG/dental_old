@@ -46567,10 +46567,11 @@ screen and (-ms-high-contrast:none) {
     }
 
     .footer-middle-elements .footer-right-side {
-        width: 22%;
-        flex-basis: 22%;
+        width: 40%;
+        flex-basis: 40%;
         margin: 0 0 0 auto;
-        max-width: 240px
+        max-width: 300px;
+
     }
 
     .footer-middle-elements .footer-logo {
@@ -46583,7 +46584,7 @@ screen and (-ms-high-contrast:none) {
     }
 
     .footer-middle-elements .footer-contact {
-        margin: 10px 0 0;
+        margin: 0px 0 0;
         max-width: none
     }
 
@@ -64920,7 +64921,7 @@ screen and (-ms-high-contrast:none) {
 
 
 .header-action-links .btn {
-    min-width: 200px;
+    min-width: 150px;
     max-width: 240px;
     padding: 10px 20px;
   
