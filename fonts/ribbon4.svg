@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="152px" viewBox="0 0 74 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B1A0C2E2-6FEC-466B-A39F-367AA77CA2C9</title>
+    <defs>
+        <polygon id="path-1" points="0.4355 0.204 53.358 0.204 53.358 61.6928 0.4355 61.6928"></polygon>
+        <polygon id="path-3" points="0 0.0564 46.1399 0.0564 46.1399 46.9994 0 46.9994"></polygon>
+    </defs>
+    <g id="LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Easter_Egg_LP_02_1" transform="translate(-582.000000, -1730.000000)">
+            <g id="Easter-Egg-Animations" transform="translate(109.000000, 1172.000000)">
+                <g id="ribbon4" transform="translate(473.000000, 558.000000)">
+                    <g id="Group-3" transform="translate(20.000000, 0.796000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M13.2415,0.2038 C35.7585,9.3838 58.2085,28.6068 52.4415,42.5058 C46.6735,56.4028 34.0535,61.6928 34.0535,61.6928 C31.1395,40.3218 10.6685,34.5088 0.4355,31.7858 C1.7775,27.8508 13.2415,0.2038 13.2415,0.2038" id="Fill-1" fill="#F7F7F7" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M32.7283,125.8836 C34.2663,115.4466 37.5923,101.2906 10.8743,87.8936 C18.3873,81.7956 35.3223,78.5806 35.3223,78.5806 C35.3223,78.5806 53.4533,85.8336 46.1403,104.8526 C38.8263,123.8696 32.7283,125.8836 32.7283,125.8836" id="Fill-4" fill="#F7F7F7"></path>
+                    <path d="M10.8748,87.8934 C33.1438,95.3044 51.2718,88.0834 56.8018,82.6814 C58.1988,77.4904 72.4408,43.3014 72.4408,43.3014 C54.1048,65.8114 34.5918,59.9094 21.2338,55.6844 C20.3928,58.5774 10.8748,87.8934 10.8748,87.8934" id="Fill-6" fill="#FFFFFF"></path>
+                    <g id="Group-10" transform="translate(0.000000, 104.796000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-9"></g>
+                        <path d="M46.1399,0.0564 C32.3849,17.9914 6.3529,20.3124 -0.0001,20.1884 C1.5339,23.8574 9.2749,46.9994 9.2749,46.9994 C21.1369,45.1934 27.4269,41.2554 32.2399,37.3414 C32.6359,34.2344 46.1399,0.0564 46.1399,0.0564" id="Fill-8" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
