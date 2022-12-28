@@ -64924,7 +64924,7 @@ screen and (-ms-high-contrast:none) {
     min-width: 150px;
     max-width: 240px;
     padding: 10px 20px;
-  
+
 }
 
 
@@ -64936,19 +64936,48 @@ screen and (-ms-high-contrast:none) {
     display: none !important;
 }
 
-.adress_footer 
-    {
-        font-size: 14px !important;
-        letter-spacing: .7px !important;
-        line-height: 28px !important;
-        color: #a4a4a4 !important;
-        
-    }
-    .adress_footer:hover {
-       text-decoration: none !important;
-    }
+.adress_footer {
+    font-size: 14px !important;
+    letter-spacing: .7px !important;
+    line-height: 28px !important;
+    color: #a4a4a4 !important;
 
-    .googleMaps {
-        text-decoration: none
-        ;
-    }
+}
+
+.adress_footer:hover {
+    text-decoration: none !important;
+}
+
+.googleMaps {
+    text-decoration: none;
+}
+
+.tab-content {
+    min-height: unset !important;
+}
+
+#cq_recomm_slot-7d9913c4bb8fd40fa211fb1422 .product-list-slider-block:not(.hommes-bg) {
+    background-color: white;
+}
+
+#cq_recomm_slot-7d9913c4bb8fd40fa211fb1422 .drag-list .drag-list-body {
+    padding-left: 0;
+}
+
+
+.customBlockText {
+    text-align: center;
+    background-color: #f6f4f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.customBlockText p {
+    font-size: 24px;
+}
+
+.product-grid-block {
+    margin-bottom: 0;
+    padding-top: 0;
+}
