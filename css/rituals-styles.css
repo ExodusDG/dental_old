@@ -26723,7 +26723,6 @@ body:not(.personalised-gifting-page) .pdp-main-quickview .product-details-contai
 
 .stay-informed .newsletter-wrapper {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between
 }
@@ -26756,7 +26755,7 @@ body:not(.personalised-gifting-page) .pdp-main-quickview .product-details-contai
 }
 
 .stay-informed .newsletter-wrapper .emailform {
-    width: 100%
+    width: 60%
 }
 
 .stay-informed .newsletter-wrapper .emailform .input-row.floating-label {
@@ -42041,7 +42040,8 @@ screen and (-ms-high-contrast:none) {
     }
 
     .stay-informed .newsletter-wrapper .emailform {
-        margin-top: -7px
+        margin-top: -7px;
+        width: 60%;
     }
 
     .stay-informed .newsletter-wrapper .emailform .input-row.floating-label {
@@ -46686,7 +46686,7 @@ screen and (-ms-high-contrast:none) {
 
     .stay-informed .newsletter-wrapper .emailform {
         flex-shrink: 0;
-        width: auto
+        width: 60%;
     }
 
     .stay-informed .newsletter-wrapper .emailform form {
@@ -64925,4 +64925,9 @@ screen and (-ms-high-contrast:none) {
     max-width: 240px;
     padding: 10px 20px;
   
+}
+
+
+.stay-informed .newsletter-wrapper .emailform {
+    width: 60%;
 }
