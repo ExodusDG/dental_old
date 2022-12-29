@@ -64981,3 +64981,11 @@ screen and (-ms-high-contrast:none) {
     margin-bottom: 0;
     padding-top: 0;
 }
+
+body {
+    zoom: 0.9;
+}
+
+.content-banner.in-viewport .image-holder {
+    transform: scale(1.1);
+}
