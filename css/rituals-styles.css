@@ -65053,4 +65053,7 @@ body {
         max-width: initial;
         margin-top: 10px;
     }
+    .popup-logo {
+        fill: #1a1919;
+    }
 }
