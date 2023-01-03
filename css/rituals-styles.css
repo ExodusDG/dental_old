@@ -65067,3 +65067,39 @@ body {
         padding: 10px;
     }
 }
+
+
+.login-wrapper .login-panel__form {
+    max-width: none;
+    margin: 0;
+    padding: 40px;
+    background: white;
+}
+
+.btn-submit {
+    width: 100%;
+    max-width: none;
+    min-width: none;
+}
+
+.form-row-button:not(.full-width-row) {
+    margin-top: 40px;
+}
+
+.inner-wrapper-contact {
+    max-width: none;
+    padding: 30px;
+}
+
+.page-layout-left-subtitle {
+    color: #1a1919;
+    font-family: "ClassGarmnd BT","Times New Roman",serif;
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 32px;
+    height: 91px;
+    letter-spacing: 1.4px;
+    line-height: 40px;
+    margin-top: 44px;
+    overflow: hidden;
+}
