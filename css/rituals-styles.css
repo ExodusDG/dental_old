@@ -65201,6 +65201,11 @@ body {
 .pricingSubtitle {
     font-size: 400;
     font-size: 18px;
+    color: #453f3f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+
 }
 
 .pricingSub {
@@ -65219,6 +65224,11 @@ body {
     border-bottom: 1px solid #ececec;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-family: ScalaSansOT, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: 2.08px;
+    line-height: 14px;
+    position: relative;
+    text-transform: uppercase;
 }
 .pricingTableTop > div:nth-child(1) {
     width: 50%;
@@ -65265,11 +65275,19 @@ body {
     background: #efedea;
 }
 
-.pricing-dark h1 {
-    color: white;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #000;
+.pricing-dark h2 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-bottom: 22px;
+    padding: 0 20px;
+    text-transform: none !important;
+
+}
+
+.pricing .heading-h3 {
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 .pricing-dark .pricingTableTop {
