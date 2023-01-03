@@ -64974,7 +64974,7 @@ screen and (-ms-high-contrast:none) {
 }
 
 .customBlockText p {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .product-grid-block {
@@ -65195,6 +65195,8 @@ body {
 .pricing h1 {
     font-weight: 700;
     color: #9a7b69;
+    text-transform: none;
+    color: #000;
 }
 .pricingSubtitle {
     font-size: 400;
@@ -65322,4 +65324,9 @@ body {
         width: 100%;
     }
 
+}
+
+.customBlockText .heading-h10 {
+    font-size: 16px;
+    margin-bottom: 0;
 }
