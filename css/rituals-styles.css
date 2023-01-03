@@ -65198,6 +65198,11 @@ body {
     text-transform: none;
     color: #000;
 }
+
+.pricing-dark h2 {
+    text-align: center;
+}
+
 .pricingSubtitle {
     font-size: 400;
     font-size: 18px;
@@ -65275,17 +65280,12 @@ body {
     background: #efedea;
 }
 
-.pricing-dark h2 {
-    font-size: 20px;
-    letter-spacing: 0px;
-    line-height: 24px;
-    margin-bottom: 22px;
-    padding: 0 20px;
-    text-transform: none !important;
-
+.pricing .heading-h3 {
+    text-transform: none;
+    letter-spacing: 0;
 }
 
-.pricing .heading-h3 {
+.pricing-dark .heading-h3 {
     text-transform: none;
     letter-spacing: 0;
 }
