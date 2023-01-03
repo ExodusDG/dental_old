@@ -65053,6 +65053,7 @@ body {
         max-width: initial;
         margin-top: 10px;
     }
+
     .popup-logo {
         fill: #1a1919;
     }
@@ -65063,6 +65064,7 @@ body {
         display: flex;
         font-size: 20px;
     }
+
     .popupBody {
         padding: 10px;
     }
@@ -65131,7 +65133,7 @@ body {
     align-items: baseline;
 }
 
-.contactBody > div {
+.contactBody>div {
     width: 48%;
 }
 
@@ -65152,8 +65154,9 @@ body {
 
 .contactRight {
     position: relative;
-   
+
 }
+
 .benefits-subtitle {
     text-align: left !important;
 }
@@ -65164,7 +65167,7 @@ body {
     line-height: 40px;
     max-width: none;
     color: #1a1919;
-    font-family: "ClassGarmnd BT","Times New Roman",serif;
+    font-family: "ClassGarmnd BT", "Times New Roman", serif;
     text-transform: none;
 }
 
@@ -65180,4 +65183,143 @@ body {
 .contactBlock {
     padding-bottom: 150px;
     padding-top: 0;
+}
+
+.pricing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: white;
+}
+
+.pricing h1 {
+    font-weight: 700;
+    color: #9a7b69;
+}
+.pricingSubtitle {
+    font-size: 400;
+    font-size: 18px;
+}
+
+.pricingSub {
+    font-weight: 700;
+}
+
+.pricingTable {
+    width: 100%;
+}
+
+.pricingTableTop {
+    display: flex;
+}
+.pricingTableTop > div {
+    font-size: 20px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pricingTableTop > div:nth-child(1) {
+    width: 50%;
+    text-align: left;
+}
+
+.pricingTableTop > div:nth-child(2) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableTop > div:nth-child(3) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow > p:nth-child(1) {
+    width: 50%;
+    text-align: left;
+}
+
+.pricingTableRow > p:nth-child(2) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow > p:nth-child(3) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow {
+    display: flex;
+}
+
+.pricingTableRow p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;
+}
+
+.pricing-dark {
+    padding-top: 50px;
+    background: #efedea;
+}
+
+.pricing-dark h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.pricing-dark .pricingTableTop {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .pricing h1 {
+        font-size: 30px;
+    }
+    .pricing-dark h1 {
+        font-size: 30px;
+    }
+    .pricingSubtitle {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contactBody {
+        display: block;
+    }
+    .contactBody>div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 490px) {
+    .pricing h1 {
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    .pricingSubtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .pricingTableTop > div {
+        font-size: 16px;
+    }
+    .pricingTableRow p {
+        font-size: 12px;
+    }
+    .contactBlockTitle {
+        font-size: 24px;
+    }
+    .footer-middle-elements .footer-contact {
+        max-width: 90%;
+    }
+    .footer-middle-elements .footer-right-side .footer-column {
+        max-width: unset;
+        margin: 0 auto;
+        width: 100%;
+    }
+
 }
