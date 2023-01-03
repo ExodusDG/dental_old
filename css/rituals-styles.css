@@ -65069,29 +65069,13 @@ body {
 }
 
 
-.login-wrapper .login-panel__form {
-    max-width: none;
-    margin: 0;
-    padding: 40px;
-    background: white;
+.contactBlock {
+    background: #efedea;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.btn-submit {
-    width: 100%;
-    max-width: none;
-    min-width: none;
-}
-
-.form-row-button:not(.full-width-row) {
-    margin-top: 40px;
-}
-
-.inner-wrapper-contact {
-    max-width: none;
-    padding: 30px;
-}
-
-.page-layout-left-subtitle {
+.contactBlockTitle {
     color: #1a1919;
     font-family: "ClassGarmnd BT","Times New Roman",serif;
     margin-bottom: 24px;
@@ -65102,4 +65086,31 @@ body {
     line-height: 40px;
     margin-top: 44px;
     overflow: hidden;
+    max-width: 630px;
+}
+
+.contactLeft {
+    background: white;
+    padding: 40px;
+    margin: 0;
+}
+
+.btn-contact {
+    margin-top: 20px;
+    width: 100%;
+    max-width: none !important;
+}
+
+.contactRight {
+    background: white;
+    padding: 40px;
+}
+
+.contactBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-and-conditions-info {
+    margin: 70px auto 30px;
 }
