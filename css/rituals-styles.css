@@ -65083,19 +65083,24 @@ body {
     margin-bottom: 24px;
     text-align: left;
     font-size: 32px;
-    height: 91px;
     letter-spacing: 1.4px;
     line-height: 40px;
-    margin-top: 44px;
+    margin-top: 0px;
     overflow: hidden;
-    max-width: 630px;
+    max-width: 670px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .contactLeft {
     background: white;
     padding: 40px;
     margin: 0;
-    max-height: 220px;
+    max-height: none;
+}
+
+.contactRight {
+    max-height: 380px;
 }
 
 .btn-contact {
@@ -65181,8 +65186,8 @@ body {
 }
 
 .contactBlock {
-    padding-bottom: 150px;
-    padding-top: 0;
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 .pricing {
@@ -65224,7 +65229,8 @@ body {
 .pricingTableTop {
     display: flex;
 }
-.pricingTableTop > div {
+
+.pricingTableTop>div {
     font-size: 16px;
     border-bottom: 1px solid #ececec;
     padding-bottom: 10px;
@@ -65235,32 +65241,33 @@ body {
     position: relative;
     text-transform: uppercase;
 }
-.pricingTableTop > div:nth-child(1) {
+
+.pricingTableTop>div:nth-child(1) {
     width: 50%;
     text-align: left;
 }
 
-.pricingTableTop > div:nth-child(2) {
+.pricingTableTop>div:nth-child(2) {
     width: 25%;
     text-align: left;
 }
 
-.pricingTableTop > div:nth-child(3) {
+.pricingTableTop>div:nth-child(3) {
     width: 25%;
     text-align: left;
 }
 
-.pricingTableRow > p:nth-child(1) {
+.pricingTableRow>p:nth-child(1) {
     width: 50%;
     text-align: left;
 }
 
-.pricingTableRow > p:nth-child(2) {
+.pricingTableRow>p:nth-child(2) {
     width: 25%;
     text-align: left;
 }
 
-.pricingTableRow > p:nth-child(3) {
+.pricingTableRow>p:nth-child(3) {
     width: 25%;
     text-align: left;
 }
@@ -65298,16 +65305,20 @@ body {
     .pricing h1 {
         font-size: 30px;
     }
+
     .pricing-dark h1 {
         font-size: 30px;
     }
+
     .pricingSubtitle {
         width: 90%;
         margin: 0 auto;
     }
+
     .contactBody {
         display: block;
     }
+
     .contactBody>div {
         width: 100%;
         margin-bottom: 40px;
@@ -65324,18 +65335,23 @@ body {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    .pricingTableTop > div {
+
+    .pricingTableTop>div {
         font-size: 16px;
     }
+
     .pricingTableRow p {
         font-size: 12px;
     }
+
     .contactBlockTitle {
         font-size: 24px;
     }
+
     .footer-middle-elements .footer-contact {
         max-width: 90%;
     }
+
     .footer-middle-elements .footer-right-side .footer-column {
         max-width: unset;
         margin: 0 auto;
@@ -65347,4 +65363,55 @@ body {
 .customBlockText .heading-h10 {
     font-size: 16px;
     margin-bottom: 0;
+}
+
+.contactLeft .field-wrapper {
+    margin-top: 10px;
+}
+
+#question {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    color: #1a1919;
+    font-family: ScalaSansOT, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin-top: 8px;
+    order: 2;
+    padding: 12px 21px;
+    width: 100%;
+}
+
+#messageCheckbox {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    border: 1px solid #d8d8d8;
+    color: #1a1919;
+    z-index: 2 !important;
+    cursor: auto;
+    opacity: 0 !important;
+    appearance: auto !important;
+}
+
+.checkboxRow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.checkboxRow > label {
+    width: 100%;
+}
+
+input[type=checkbox]+label::before, input[type=radio]+label::before {
+   
+    top: 5px;
+    width: 24px;
+}
+
+.pricingTable {
+    width: 80%;
+    margin: 0 auto;
 }
