@@ -65412,6 +65412,11 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
 }
 
 .pricingTable {
-    width: 80%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pricingTop {
+    width: 70%;
     margin: 0 auto;
 }
