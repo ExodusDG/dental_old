@@ -65077,7 +65077,7 @@ body {
 
 .contactBlockTitle {
     color: #1a1919;
-    font-family: "ClassGarmnd BT","Times New Roman",serif;
+    font-family: "ClassGarmnd BT", serif;
     margin-bottom: 24px;
     text-align: left;
     font-size: 32px;
@@ -65093,6 +65093,7 @@ body {
     background: white;
     padding: 40px;
     margin: 0;
+    max-height: 220px;
 }
 
 .btn-contact {
@@ -65113,4 +65114,70 @@ body {
 
 .terms-and-conditions-info {
     margin: 70px auto 30px;
+}
+
+.stay-informed .newsletter-wrapper p {
+    max-width: 600px;
+}
+
+.stay-informed .newsletter-wrapper .emailform form .form-row .form-row {
+    width: 100%;
+    max-width: 600px;
+    min-width: 350px;
+    margin-right: 20px;
+}
+
+.stay-informed .newsletter-wrapper {
+    align-items: baseline;
+}
+
+.contactBody > div {
+    width: 48%;
+}
+
+.contactRight::after {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(https://www.rituals.com/on/demandware.static/Sites-UK-Site/-/en_GB/v1672733620420/images/crm/ribbon-gold-corner-desktop.svg);
+    height: 96px;
+    width: 90px;
+    opacity: 1;
+}
+
+.contactRight {
+    position: relative;
+   
+}
+.benefits-subtitle {
+    text-align: left !important;
+}
+
+.contactRightTitle {
+    font-size: 32px;
+    letter-spacing: 1.4px;
+    line-height: 40px;
+    max-width: none;
+    color: #1a1919;
+    font-family: "ClassGarmnd BT","Times New Roman",serif;
+    text-transform: none;
+}
+
+.benefits-list {
+    margin: unset !important;
+    margin-top: 20px;
+}
+
+.benefits-list li {
+    margin-top: 20px !important;
+}
+
+.contactBlock {
+    padding-bottom: 150px;
+    padding-top: 0;
 }
