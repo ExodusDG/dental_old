@@ -65432,3 +65432,7 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
     margin: 0 0 0 auto;
     max-width: 280px !important;
 }
+
+.beforelast .product-list-slider-block {
+    padding: 58px 0 54px;
+}
