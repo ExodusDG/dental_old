@@ -65426,3 +65426,9 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
     height: 40px;
     background: rgba(26,25,25,.96);
 }
+
+.footer-middle-elements .footer-right-side {
+  
+    margin: 0 0 0 auto;
+    max-width: 280px !important;
+}
