@@ -65101,6 +65101,7 @@ body {
 
 .contactRight {
     max-height: 380px;
+    margin-bottom: 30px;
 }
 
 .btn-contact {
@@ -65108,7 +65109,9 @@ body {
     width: 100%;
     max-width: none !important;
 }
-
+.rightFix::after {
+    display: none;
+}
 .contactRight {
     background: white;
     padding: 40px;
@@ -65443,4 +65446,9 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
 
 .product-list-slider .product-image {
     height: 380px;
+}
+
+.contactBody>div {
+    width: 48%;
+    max-height: 630px;
 }
