@@ -65436,3 +65436,11 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
 .beforelast .product-list-slider-block {
     padding: 58px 0 54px;
 }
+
+.product-list-slider .product-tile .product-image img {
+    width: 100%;
+}
+
+.product-list-slider .product-image {
+    height: 380px;
+}
